@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AMR Mahmoud | Penetration Tester — A-TURBO-99</title>
+<meta name="description" content="AMR Mahmoud (A-TURBO-99) — Penetration Tester & Bug Bounty Hunter. 60+ vulnerabilities discovered, FATORA Hall of Fame." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===== Background FX ===== -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow bg-glow--one" aria-hidden="true"></div>
+<div class="bg-glow bg-glow--two" aria-hidden="true"></div>
+
+<!-- ===== Navbar ===== -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#home" class="nav__brand">
+      <span class="nav__logo">A<span class="nav__logo-accent">99</span></span>
+      <span class="nav__name">A-TURBO-99</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Certifications</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow"><span class="dot"></span> Available for security assessments</p>
+        <h1 class="hero__title">
+          AMR <span class="grad">Mahmoud</span>
+        </h1>
+        <h2 class="hero__role">
+          <span class="prompt">root@a-turbo:~$</span>
+          <span id="typed" class="typed"></span><span class="caret"></span>
+        </h2>
+        <p class="hero__desc">
+          Penetration Tester & Bug Bounty Hunter. I break systems ethically,
+          document the impact, and help teams ship safer products. 60+ vulnerabilities
+          discovered and counting.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#achievements" class="btn btn--primary">🏆 View Achievements</a>
+          <a href="https://www.linkedin.com/in/amr-mahmoud-92461738a/" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.06 3.78-2.06C20.6 8.58 22 10.6 22 14.02V21h-4v-6.19c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.6-2.38 3.27V21H9V9Z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:amrturboo11@gmail.com" class="btn btn--ghost">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+            Gmail
+          </a>
+          <a href="https://www.facebook.com/amr.mahmoud.474639/" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg>
+            Facebook
+          </a>
+        </div>
+
+        <ul class="hero__stats">
+          <li><strong>60+</strong><span>Vulnerabilities Found</span></li>
+          <li><strong>6</strong><span>Certifications</span></li>
+          <li><strong>🏆</strong><span>Hall of Fame</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__profile">
+        <div class="profile">
+          <div class="profile__avatar">
+            <span class="profile__ring" aria-hidden="true"></span>
+            <div class="profile__photo">
+              <img src="assets/amr-mahmoud.jpg" alt="AMR Mahmoud — A-TURBO-99, Penetration Tester" loading="eager" />
+              <span class="profile__scan" aria-hidden="true"></span>
+            </div>
+            <span class="profile__status" title="Available"></span>
+          </div>
+
+          <div class="profile__id">
+            <strong>AMR Mahmoud</strong>
+            <span>Penetration Tester · A-TURBO-99</span>
+          </div>
+
+          <div class="profile__chip profile__chip--top">🛡️ Security</div>
+          <div class="profile__chip profile__chip--bottom">🏆 Hall of Fame</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section__tag">// 01 — about</p>
+      <h2 class="section__title">Who I Am</h2>
+
+      <div class="about">
+        <div class="about__main">
+          <div class="about__card">
+            <p>
+              I'm <strong>AMR Mahmoud</strong>, known online as <strong class="accent">A-TURBO-99</strong>.
+              I'm a Penetration Tester focused on web application security, API testing,
+              and vulnerability research.
+            </p>
+            <p>
+              My work sits at the intersection of offensive security and clear reporting —
+              finding real, exploitable issues and explaining them in a way teams can act on.
+              I've reported <strong>60+ vulnerabilities</strong> to date, including a recognized
+              disclosure that earned me a spot in the <strong>FATORA Bug Bounty Hall of Fame</strong>.
+            </p>
+            <p>
+              I enjoy deep-diving protocols, chaining low-severity bugs into meaningful impact,
+              and continuously sharpening my toolchain.
+            </p>
+          </div>
+
+          <div class="term about__term">
+            <div class="term__bar">
+              <span class="term__dot term__dot--red"></span>
+              <span class="term__dot term__dot--yellow"></span>
+              <span class="term__dot term__dot--green"></span>
+              <span class="term__title">amr@a-turbo-99: ~/recon</span>
+            </div>
+            <pre class="term__body"><code><span class="c-p">$</span> whoami
+<span class="c-g">AMR Mahmoud</span> — aka <span class="c-c">A-TURBO-99</span>
+
+<span class="c-p">$</span> cat role.txt
+Penetration Tester · Bug Bounty Hunter
+
+<span class="c-p">$</span> nmap --profile engagement target
+<span class="c-m">[*]</span> scanning...
+<span class="c-m">[+]</span> reporting responsibly
+<span class="c-g">[+]</span> 60+ findings disclosed
+
+<span class="c-p">$</span> <span class="blink">_</span></code></pre>
+          </div>
+        </div>
+
+        <aside class="about__meta">
+          <div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">AMR Mahmoud</span></div>
+          <div class="meta-row"><span class="meta-key">Handle</span><span class="meta-val accent">A-TURBO-99</span></div>
+          <div class="meta-row"><span class="meta-key">Role</span><span class="meta-val">Penetration Tester</span></div>
+          <div class="meta-row"><span class="meta-key">Focus</span><span class="meta-val">Web / API Security</span></div>
+          <div class="meta-row"><span class="meta-key">Status</span><span class="meta-val ok">● Active</span></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <p class="section__tag">// 02 — skills</p>
+      <h2 class="section__title">Languages & Tools</h2>
+      <p class="section__lead">Programming languages and scripting I use for automation, tooling and exploitation.</p>
+
+      <div class="skills">
+        <div class="skill"><span class="skill__icon">⚙️</span><span class="skill__name">C++</span></div>
+        <div class="skill"><span class="skill__icon">🐍</span><span class="skill__name">Python</span></div>
+        <div class="skill"><span class="skill__icon">💻</span><span class="skill__name">Bash Scripting</span></div>
+        <div class="skill"><span class="skill__icon">🌐</span><span class="skill__name">HTML</span></div>
+        <div class="skill"><span class="skill__icon">🎨</span><span class="skill__name">CSS</span></div>
+        <div class="skill"><span class="skill__icon">⚡</span><span class="skill__name">JavaScript</span></div>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Web App Pentesting</span>
+        <span class="tag">API Pentesting</span>
+        <span class="tag">Vulnerability Research</span>
+        <span class="tag">Reconnaissance</span>
+        <span class="tag">Burp Suite</span>
+        <span class="tag">Nmap</span>
+        <span class="tag">Reporting</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Certifications ===== -->
+  <section class="section" id="certs">
+    <div class="container">
+      <p class="section__tag">// 03 — certifications</p>
+      <h2 class="section__title">Certifications</h2>
+      <p class="section__lead">Credentials earned through self-study and hands-on practice.</p>
+
+      <div class="certs">
+
+        <article class="cert cert--comptia">
+          <div class="cert__badge">
+            <span class="cert__ring"></span>
+            <span class="cert__abbr">NET+</span>
+          </div>
+          <div class="cert__body">
+            <h3 class="cert__name">Network+</h3>
+            <p class="cert__issuer">CompTIA · Self Study</p>
+            <span class="cert__chip">🌐 Networking</span>
+          </div>
+        </article>
+
+        <a class="cert cert--comptia cert--link" href="https://netriders.academy/completion-certificate?cert_hash=21094f2377a34afd" target="_blank" rel="noopener">
+          <div class="cert__badge">
+            <span class="cert__ring"></span>
+            <span class="cert__abbr">SEC+</span>
+          </div>
+          <div class="cert__body">
+            <h3 class="cert__name">Security+</h3>
+            <p class="cert__issuer">CompTIA</p>
+            <span class="cert__chip">🛡️ Security</span>
+            <span class="cert__verify">Verify credential ↗</span>
+          </div>
+        </a>
+
+        <a class="cert cert--ine cert--link" href="https://netriders.academy/completion-certificate?cert_hash=232f4966ce5c49c9" target="_blank" rel="noopener">
+          <div class="cert__badge">
+            <span class="cert__ring"></span>
+            <span class="cert__abbr">eJPT</span>
+          </div>
+          <div class="cert__body">
+            <h3 class="cert__name">eJPT</h3>
+            <p class="cert__issuer">INE Security · Junior Penetration Tester</p>
+            <span class="cert__chip">🎯 Pentesting</span>
+            <span class="cert__verify">Verify credential ↗</span>
+          </div>
+        </a>
+
+        <article class="cert cert--ine">
+          <div class="cert__badge">
+            <span class="cert__ring"></span>
+            <span class="cert__abbr">eWPT</span>
+          </div>
+          <div class="cert__body">
+            <h3 class="cert__name">eWAPT</h3>
+            <p class="cert__issuer">INE Security · Web App Pentester</p>
+            <span class="cert__chip">🕸️ Web Security</span>
+          </div>
+        </article>
+
+        <a class="cert cert--ec cert--link" href="https://maharatech.gov.eg/badges/badge.php?hash=9f0f06c0cc59733f0928ee1c729ebdb993a45ac8" target="_blank" rel="noopener">
+          <div class="cert__badge">
+            <span class="cert__ring"></span>
+            <span class="cert__abbr">CEH</span>
+          </div>
+          <div class="cert__body">
+            <h3 class="cert__name">CEH</h3>
+            <p class="cert__issuer">EC-Council · Ethical Hacker</p>
+            <span class="cert__chip">🧠 Ethical Hacking</span>
+            <span class="cert__verify">Verify credential ↗</span>
+          </div>
+        </a>
+
+        <a class="cert cert--api cert--link" href="https://www.credly.com/badges/f1c029b2-734c-468c-82ff-5e06b8e18b50/public_url" target="_blank" rel="noopener">
+          <div class="cert__badge">
+            <span class="cert__ring"></span>
+            <span class="cert__abbr">API</span>
+          </div>
+          <div class="cert__body">
+            <h3 class="cert__name">API Pentesting</h3>
+            <p class="cert__issuer">API Security Specialist</p>
+            <span class="cert__chip">🔌 API Security</span>
+            <span class="cert__verify">Verify credential ↗</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Achievements ===== -->
+  <section class="section section--alt" id="achievements">
+    <div class="container">
+      <p class="section__tag">// 04 — achievements</p>
+      <h2 class="section__title">Achievements</h2>
+
+      <div class="awards">
+        <a href="https://fatora.io/en/bug-bounty-hall-of-fame/" target="_blank" rel="noopener" class="award award--feature">
+          <div class="award__icon">🏆</div>
+          <div class="award__content">
+            <p class="award__kicker">Bug Bounty · Hall of Fame</p>
+            <h3 class="award__title">FATORA — Hall of Fame</h3>
+            <p class="award__desc">
+              Recognized for responsibly disclosing a vulnerability in FATORA,
+              earning a place in their official Bug Bounty Hall of Fame.
+            </p>
+            <span class="award__link">View Hall of Fame →</span>
+          </div>
+        </a>
+
+        <div class="award">
+          <div class="award__icon">🔎</div>
+          <div class="award__content">
+            <p class="award__kicker">Vulnerability Research</p>
+            <h3 class="award__title">60+ Vulnerabilities Discovered</h3>
+            <p class="award__desc">
+              Identified and responsibly reported over 60 security vulnerabilities
+              across web applications and APIs.
+            </p>
+          </div>
+        </div>
+
+        <a href="https://github.com/A-TURBO-99/Network-Pentesting" target="_blank" rel="noopener" class="award award--gh">
+          <div class="award__icon">🐙</div>
+          <div class="award__content">
+            <p class="award__kicker">Open Source · Knowledge Base</p>
+            <h3 class="award__title">Network Pentesting — GitHub</h3>
+            <p class="award__desc">
+              A public repository where I document my network penetration testing
+              methodology — phases, techniques, notes and practical walkthroughs.
+            </p>
+            <span class="award__link">View on GitHub →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact">
+    <div class="container contact">
+      <p class="section__tag">// 05 — contact</p>
+      <h2 class="section__title">Let's Work Together</h2>
+      <p class="section__lead">
+        Need a security assessment or want to discuss a finding? Reach out.
+      </p>
+      <div class="contact__actions">
+        <a href="mailto:amrturboo11@gmail.com" class="btn btn--primary">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+          amrturboo11@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/amr-mahmoud-92461738a/" target="_blank" rel="noopener" class="btn btn--ghost">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.06 3.78-2.06C20.6 8.58 22 10.6 22 14.02V21h-4v-6.19c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.6-2.38 3.27V21H9V9Z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://www.facebook.com/amr.mahmoud.474639/" target="_blank" rel="noopener" class="btn btn--ghost">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year"></span> AMR Mahmoud · <span class="accent">A-TURBO-99</span></p>
+    <p class="footer__note">Penetration Tester · Bug Bounty Hunter</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
