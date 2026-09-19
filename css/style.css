@@ -113,18 +113,6 @@ img { max-width: 100%; display: block; }
   height: 72px;
 }
 .nav__brand { display: flex; align-items: center; gap: .65rem; }
-.nav__logo {
-  font-family: var(--mono);
-  font-weight: 700;
-  font-size: 1.05rem;
-  letter-spacing: .5px;
-  padding: .35rem .55rem;
-  border: 1px solid var(--line-soft);
-  border-radius: 8px;
-  background: linear-gradient(180deg, var(--panel-2), var(--panel));
-  color: var(--text);
-}
-.nav__logo-accent { color: var(--accent); }
 .nav__name { font-weight: 600; letter-spacing: .5px; color: var(--muted); font-size: .92rem; }
 
 .nav__links { display: flex; gap: 1.8rem; }
