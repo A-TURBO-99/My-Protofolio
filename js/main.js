@@ -36,7 +36,7 @@
     var phrases = [
       "Penetration Tester",
       "Bug Bounty Hunter",
-      "Web - API - Cloud Security",
+      "Web & API Security",
       "Vulnerability Researcher"
     ];
     var pIndex = 0, cIndex = 0, deleting = false;
